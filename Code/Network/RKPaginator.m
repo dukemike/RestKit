@@ -327,4 +327,8 @@ static NSUInteger RKPaginatorDefaultPerPage = 25;
     self.offset = [offsetNumber unsignedIntegerValue];
 }
 
+- (bool)isInProgress {
+    return self.objectRequestOperation;
+}
+
 @end
