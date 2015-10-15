@@ -268,4 +268,9 @@
  */
 - (void)cancel;
 
+/**
+ Returns true if the paginator is in progress as specifed by RKPaginator:loadPage (line 176)
+ */
+- (bool)isInProgress;
+
 @end
